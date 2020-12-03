@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    background: linear-gradient(rgba(9, 117, 121, 0.3),rgba(174, 192, 153, 0.7)), url(/src/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    transform: scale(0.4);
+}
+
+#navegacion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.title {
+    background-color: rgb(141, 238, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosotros{
+    background-color: rgba(10, 144, 144,0.5);
+    border-radius: 20px;
+    padding: 2%;
+    margin: 5%;
+}
+
+.formulario{
+    background-color: rgba(173, 255, 180, 0.5);
+    border-radius: 20px;
+    padding: 2%;
+    margin: 5%;
+}
+
+footer{
+    background-color: #b6dffc;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+
+
+.redes {
+    font-size: 1.3rem;
+    color: rgb(48, 80, 149);
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.redes:hover {
+    opacity: 100%;
+    text-decoration: none;
+}
